@@ -7,6 +7,9 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { AymeliCodeComponent } from './aymeli-code/aymeli-code.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatTabsModule} from '@angular/material/tabs';  
+
+const material = [ MatTabsModule ];
 
 @NgModule({
   declarations: [
@@ -18,8 +21,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatTabsModule,
+    material
   ],
+  exports: [material],
   providers: [],
   bootstrap: [AppComponent]
 })
