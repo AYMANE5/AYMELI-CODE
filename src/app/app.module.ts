@@ -7,7 +7,9 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { AymeliCodeComponent } from './aymeli-code/aymeli-code.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatTabsModule} from '@angular/material/tabs';  
+import {MatTabsModule} from '@angular/material/tabs';
+import { ProfilPageComponent } from './profil-page/profil-page.component';
+import { ContactPageComponent } from './contact-page/contact-page.component';  
 
 const material = [ MatTabsModule ];
 
@@ -16,7 +18,9 @@ const material = [ MatTabsModule ];
     AppComponent,
     TopBarComponent,
     HomePageComponent,
-    AymeliCodeComponent
+    AymeliCodeComponent,
+    ProfilPageComponent,
+    ContactPageComponent
   ],
   imports: [
     BrowserModule,

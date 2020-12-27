@@ -1,0 +1,11 @@
+.logo
+{ 
+    height: 36%;
+    margin-top: 3.5%;
+    margin-left: 26%;
+}
+
+.logo:hover {
+    transition-duration: 0.2s;
+    transform: translateY(10px);
+  }
