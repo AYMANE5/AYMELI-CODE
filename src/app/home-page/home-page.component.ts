@@ -12,4 +12,11 @@ export class HomePageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onLogo() {
+    console.log("Logo animation work");
+    document.getElementById("transition").style.opacity = "0";
+  }
+
+
 }
+

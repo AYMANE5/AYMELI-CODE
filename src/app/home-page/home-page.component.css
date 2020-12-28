@@ -1,11 +1,12 @@
 .logo
 { 
-    height: 36%;
+    height: 80%;
     margin-top: 3.5%;
     margin-left: 26%;
+    position: fixed;
 }
 
 .logo:hover {
-    transition-duration: 0.2s;
-    transform: translateY(10px);
+    transition-duration: 0.1s;
+    transform: translateY(15px);
   }
