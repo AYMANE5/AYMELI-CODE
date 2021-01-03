@@ -1,0 +1,51 @@
+.logo
+{ 
+    height: 70%;
+    margin-top: 100px;
+    margin-left: 50%;
+    position: fixed;
+}
+
+.logo:hover {
+    transition-duration: 0.1s;
+    transform: translateY(10px);
+  }
+
+.prenom {
+    margin-top: 250px;
+    margin-left: 300px;
+    position: fixed;
+}
+
+.email {
+    margin-top: 250px;
+    margin-left: 550px;
+    position: fixed;
+}
+
+.connexion {
+    transition-duration: 0.4s;
+    background: transparent linear-gradient(180deg, #9e84d3 0%, #945cc2 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 15px #2661ce67;
+    color: yellow;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    position: fixed;
+    margin-left: 300px;
+    margin-top: 400px;
+  }
+  
+.connexion:hover {
+    transition-duration: 0.1s;
+    transform: translateY(2px);
+    box-shadow: none!important;
+}
+
+a:link{
+text-decoration: none;
+}
+
+a{
+color: yellow;
+}

@@ -1,0 +1,19 @@
+<div class="prenom"><mat-form-field hintLabel="Max. 10 caractères" appearance="fill">
+    <mat-label>Prénom</mat-label>
+    <input matInput #input maxlength="10" placeholder="Ex. Aladdin">
+    <mat-hint align="end">{{input.value?.length || 0}}/10</mat-hint>
+  </mat-form-field>
+</div>
+
+<div class="email">
+    <mat-form-field appearance="fill">
+      <mat-label>Entrez votre email</mat-label>
+      <input matInput placeholder="eleve@exemple.com" [formControl]="email" required>
+      <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+    </mat-form-field>
+</div>
+
+<button class="connexion"><a href="http://localhost:4200/m">Connexion</a></button>
+
+<img  id="transition" src="../../assets/img/LogoAymeli.png" alt="Logo-Aymeli" class="logo" (click)="onLogo()">
+
