@@ -23,10 +23,9 @@ export class HomePageComponent implements OnInit {
      
     c.fillRect(0,0,canvas.width,canvas.height) ; 
     var radius = 1;
-   
-        
+
     function draw () {
-      c.fillStyle = '#9e84d3';
+      c.fillStyle = '#945cc2';
       c.beginPath();
       c.arc(200,200,radius,0,2*Math.PI,false);
       c.fill() ;

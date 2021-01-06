@@ -55,6 +55,9 @@ import {MatTreeModule} from '@angular/material/tree';
 import {ReactiveFormsModule} from '@angular/forms';
 import {MAT_FORM_FIELD_DEFAULT_OPTIONS} from '@angular/material/form-field';
 import {FormsModule,} from '@angular/forms';
+import { InstallComponent } from './install/install.component';
+import { HtmlComponent } from './html/html.component';
+import { CssComponent } from './css/css.component';
 
 const material = [ MatTabsModule ];
 
@@ -67,6 +70,9 @@ const material = [ MatTabsModule ];
     ProfilPageComponent,
     ContactPageComponent,
     AuthComponent,
+    InstallComponent,
+    HtmlComponent,
+    CssComponent,
   ],
   imports: [
     BrowserModule,
